@@ -1,0 +1,21 @@
+{
+  "name": "uniq-number",
+  "version": "1.0.0",
+  "description": "Generate unique number with Javascript generator",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "ES6",
+    "Generators",
+    "Unique number",
+    "guid",
+    "id",
+    "uid",
+    "unique id",
+    "uuid"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diegoarcega/uniq-number.git"
+  }
+}
