@@ -1,7 +1,7 @@
 {
   "name": "uniq-number",
-  "version": "1.0.0",
-  "description": "Generate unique number with Javascript generator",
+  "version": "1.0.1",
+  "description": "Generate unique number with Javascript generators",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "keywords": [

@@ -1,4 +1,4 @@
-function* createUniqNumberGenerator(startingNumber: number = 0) {
+function* createUniqNumberGenerator(startingNumber: number = 0): Generator<number, undefined, boolean> {
   let number = startingNumber
 
   while (true) {

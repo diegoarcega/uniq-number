@@ -1,6 +1,12 @@
-const createUniqNumberGenerator = require('../dist').createUniqNumberGenerator
+const getUniq = require('../dist').getUniq
 
-const gen = createUniqNumberGenerator()
-console.log(gen.next().value)
-console.log(gen.next().value)
-console.log(gen.next().value)
+const gen = getUniq(100)
+
+// from 100
+console.log(gen())
+console.log(gen())
+console.log(gen())
+
+// from 0
+console.log(getUniq())
+console.log(getUniq())

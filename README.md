@@ -9,21 +9,30 @@
     <img src="https://badgen.net/bundlephobia/minzip/uniq-number" />
 </p>
 
-Generate unique numbers with javascript generators
+Generate unique numbers with javascript generators.
 
 ## Example
 
 ```js
-import { createUniqNumberGenerator } from 'uniq-number';
+import { getUniq } from 'uniq-number'
 
-const uniqNumberGenerator = createUniqNumberGenerator(10)
-console.log( uniqNumberGenerator.next().value );
-console.log( uniqNumberGenerator.next().value );
-console.log( uniqNumberGenerator.next().value );
+console.log( getUniq() )
+console.log( getUniq() )
+console.log( getUniq() )
+
+// 0
+// 1
+// 2
+
+const getUniqueNumberFromTen = getUniq(10)
+console.log( getUniqueNumberFromTen() )
+console.log( getUniqueNumberFromTen() )
+console.log( getUniqueNumberFromTen() )
 
 // 10
 // 11
 // 12
+
 
 ```
 
