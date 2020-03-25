@@ -6,10 +6,10 @@ function* createUniqNumberGenerator(startingNumber: number = 0): Generator<numbe
   }
 }
 
+
 const globalGenerator = createUniqNumberGenerator()
 
-
-export function getUniq(startingNumber: number = 0): number | Function {
+function getUniq(startingNumber: number = 0): number | Function {
   const generator = createUniqNumberGenerator(startingNumber)
 
   if (startingNumber !== 0) {
@@ -22,4 +22,4 @@ export function getUniq(startingNumber: number = 0): number | Function {
 }
 
 
-export { createUniqNumberGenerator }
+export { createUniqNumberGenerator, getUniq }

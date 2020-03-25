@@ -19,7 +19,6 @@ import { getUniq } from 'uniq-number'
 console.log( getUniq() )
 console.log( getUniq() )
 console.log( getUniq() )
-
 // 0
 // 1
 // 2
@@ -28,7 +27,6 @@ const getUniqueNumberFromTen = getUniq(10)
 console.log( getUniqueNumberFromTen() )
 console.log( getUniqueNumberFromTen() )
 console.log( getUniqueNumberFromTen() )
-
 // 10
 // 11
 // 12
