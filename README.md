@@ -11,6 +11,10 @@
 
 Generate unique numbers with javascript generators.
 
+* **Small** 272 bytes (minified and gzipped).
+* **No dependencies**
+* **Tested**
+
 ## Example
 
 ```js

@@ -1,8 +1,9 @@
 {
   "name": "uniq-number",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Generate unique number with Javascript generators",
   "author": "Diego Arcega <diegoarcega@gmail.com>",
+  "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "keywords": [
@@ -16,10 +17,14 @@
     "uuid"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "npx jest"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/diegoarcega/uniq-number.git"
+  },
+  "devDependencies": {
+    "jest": "^25.2.4"
   }
 }
